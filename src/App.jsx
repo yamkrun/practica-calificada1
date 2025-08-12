@@ -18,33 +18,33 @@ function App() {
         <main className="grid grid-cols-2 place-items-center md:grid-cols-3 lg:mx-[100px]">
           <div>
             <Card
-              images={"./images/photo1.png"}
+              images={"/images/photo1.png"}
               nombre={"Bill Maholey"}
               texto={"PRODUCT OWNER"}
             />
           </div>
           <div className="pt-16 lg:mt-16">
             <Card
-              images={"./images/photo2.png"}
+              images={"/images/photo2.png"}
               nombre={"Saba Cabrera"}
               texto={"ART DIRECTOR"}
             />
           </div>
           <Card
-            images={"./images/photo3.png"}
+            images={"/images/photo3.png"}
             nombre={"Shae Le"}
             texto={"TEACH LEAD"}
           />
           <div className="pt-16 md:pt-0">
             <Card
-              images={"./images/photo4.png"}
+              images={"/images/photo4.png"}
               nombre={"Skylah Lu"}
               texto={"UX DESIGNER"}
             />
           </div>
           <div className="md:pt-16 lg:mt-16">
             <Card
-              images={"./images/photo5.png"}
+              images={"/images/photo5.png"}
               nombre={"Griff Richards"}
               texto={"DEVELOPER"}
             />
@@ -52,7 +52,7 @@ function App() {
 
           <div className="pt-16 md:pt-0">
             <Card
-              images={"./images/photo6.png"}
+              images={"/images/photo6.png"}
               nombre={"Stan John"}
               texto={"DEVELOPER"}
             />
